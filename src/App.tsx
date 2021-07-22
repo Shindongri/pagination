@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-import Pagination from './Pagination';
+import Pagination from './components/Pagination';
 
 interface Airline {
   id: number;
